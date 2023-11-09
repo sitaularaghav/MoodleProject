@@ -22,6 +22,5 @@
  * @copyright  Andreas Grabs
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-function local_message_before_footer() {
-\core\notification::add(message:"a test message",level:\core\output\notification::NOTIFY_SUCCESS);
-}
+
+echo"hello MORtals";
